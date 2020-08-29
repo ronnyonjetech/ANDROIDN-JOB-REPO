@@ -1,2 +1,2 @@
 # ANDROIDN-JOB-REPO
-The master contains API to view the android studio app change the top to projo and android studio files will be visible
+<Final> folder is the api.In order to view the Android studio change the branch to <Projo>
