@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/religion"
+    tools:context=".postJob">
+
+    <EditText
+        android:id="@+id/taskn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_name"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_work"
+        />
+    <EditText
+        android:id="@+id/locationy"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/location"
+        android:drawableStart="@drawable/ic_location"
+        android:layout_below="@id/taskn"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/paymenty"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/payment"
+        android:drawableStart="@drawable/ic_payment"
+        android:layout_below="@id/locationy"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/descriptiony"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:drawableStart="@drawable/ic_description"
+        android:layout_below="@id/paymenty"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/worky"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/work_hours"
+        android:layout_below="@id/descriptiony"
+        android:drawableStart="@drawable/ic_time"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:inputType="time"
+        />
+    <Button
+        android:id="@+id/savey"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/worky"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="100dp"
+        android:hint="@string/save"/>
+
+
+
+
+</RelativeLayout>

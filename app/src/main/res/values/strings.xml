@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinalProjection</string>
+
+    <string name="name">Name</string>
+
+    <string name="location">Location</string>
+    <string name="payment">Payment</string>
+    <string name="description">Description</string>
+    <string name="work_hours">Work Hours</string>
+    <string name="save">Save</string>
+    <string name="task_name">Task Name</string>
+    <string name="post_job">POST JOB</string>
+    <string name="welcome">Welcome!</string>
+    <string name="post_a_job">POST A JOB</string>
+    <string name="find_a_job">FIND A JOB</string>
+
+</resources>
